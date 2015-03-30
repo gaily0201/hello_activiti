@@ -26,7 +26,7 @@
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/activiti-lib/activiti-diagram-rest-5.17.0-sources.jar"/>
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/activiti-lib/activiti-diagram-rest-5.17.0.jar"/>
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/activiti-lib/activiti-engine-5.17.0-sources.jar"/>
-	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/activiti-lib/activiti-engine-5.17.0.jar" sourcepath="D:/open_source/activiti-5.17.0/libs/activiti-engine-5.17.0-sources.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/activiti-lib/activiti-engine-5.17.0.jar" sourcepath="F:/workspace/ws_myEclipse_1/hello_activiti/WebRoot/WEB-INF/lib/activiti-lib/activiti-engine-5.17.0-sources.jar"/>
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/activiti-lib/activiti-explorer-5.17.0-sources.jar"/>
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/activiti-lib/activiti-explorer-5.17.0.jar"/>
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/activiti-lib/activiti-image-generator-5.17.0-sources.jar"/>
@@ -64,7 +64,7 @@
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/spring/spring-expression-3.2.4.RELEASE.jar"/>
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/spring/spring-tx-3.2.8.RELEASE.jar"/>
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/spring/spring-jdbc-3.0.5.RELEASE.jar" sourcepath="C:/mvn/repos/org/springframework/spring-jdbc/3.0.5.RELEASE/spring-jdbc-3.0.5.RELEASE-sources.jar"/>
-	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/com.springsource.org.junit-4.7.0.jar"/>
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/spring/spring-test-4.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/activiti-reference/slf4j-log4j12-1.6.4.jar"/>
 	<classpathentry kind="output" path="WebRoot/WEB-INF/classes"/>
 </classpath>

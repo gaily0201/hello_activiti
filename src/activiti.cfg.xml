@@ -19,7 +19,7 @@
 		
 	</bean>
 	
-	<bean id="datasource" class="">
+	<bean id="datasource" class=""> <!-- dbch c3p0 ... -->
 	
 	</bean>
 </beans>

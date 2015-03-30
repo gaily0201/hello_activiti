@@ -43,6 +43,12 @@
 		<property name="dataSource" ref="datasource"/>
 	</bean>
 	
+	<tx:annotation-driven transaction-manager="transactionManager"/>
+	
+	<bean id="userBean" class="cn.gaily.test.engine.UserBean">
+		<property name="runtimeService" ref="runtimeService"/>
+	</bean>
+	
 	
 	<bean id="repositoryService" factory-bean="processEngine" factory-method="getRepositoryService"/>
     <bean id="runtimeService" factory-bean="processEngine" factory-method="getRuntimeService"/>
