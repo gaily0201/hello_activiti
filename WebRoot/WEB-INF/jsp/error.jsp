@@ -3,6 +3,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
   <body>
-    <a href="main/login">登陆</a>
+		<a style="font-size: 10px;color: red;margin-left: 40%"><strong>出错啦, ${message }</strong></a>
+	<br/>
   </body>
 </html>

@@ -7,6 +7,8 @@
        xsi:schemaLocation="
 		http://www.springframework.org/schema/beans 
 		http://www.springframework.org/schema/beans/spring-beans-3.1.xsd">
+	
+	<!-- 该配置暂无任何作用，此处只为了说明可以activiti可以单独做配置 -->
 
 	<bean id="processEngineConfiguration" class="org.activiti.engine.impl.cfg.StandaloneProcessEngineConfiguration">
 		<property name="jdbcUrl" value="jdbc:mysql://localhost:3306/hello_activiti?characterEncoding=UTF8"/>

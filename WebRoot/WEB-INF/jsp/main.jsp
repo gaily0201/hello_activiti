@@ -3,6 +3,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
   <body>
-    <a href="main/login">登陆</a>
+	hello,<strong>${username}</strong><br/>
+	<br/>
   </body>
 </html>

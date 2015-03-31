@@ -14,7 +14,7 @@ public class SpringContextService {
 		}
 	}
 	
-	public static Object getBean(String beanName){
+	public static Object getService(String beanName){
 		if(context==null||!context.containsBean(beanName)){
 			throw new RuntimeException("not find service, service name is["+beanName+"]");
 		}

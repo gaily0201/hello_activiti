@@ -16,7 +16,7 @@ public class SpringConfigurationTest{
 	
 	public static void main(String[] args) {
 		
-		ProcessEngine processEngine = (ProcessEngine) SpringContextService.getBean("processEngine");
+		ProcessEngine processEngine = (ProcessEngine) SpringContextService.getService("processEngine");
 		
 		processEngine.getFormService();
 		processEngine.getHistoryService();

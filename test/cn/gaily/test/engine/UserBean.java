@@ -17,5 +17,13 @@ public class UserBean {
 		this.runtimeService = runtimeService;
 	}
 	
+	/**
+	 *   id || time(yyyy-mm-dd)|| sequence
+	 * 
+	 * 1、查询当前日期的数据
+	 * 	    1.1  有，拿到sequence+1，更新该条数据
+	 *      1.2  否，补一条当天的数据，并返回初始化的sequence
+	 */
+	
 	
 }
