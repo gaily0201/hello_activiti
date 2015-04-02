@@ -22,7 +22,7 @@ public class DiagramTest {
 //			.deploy();
 //		}
 		
-		RuntimeService runtimeService = (RuntimeService) SpringContextService.getBean("runtimeService");
+		RuntimeService runtimeService = (RuntimeService) SpringContextService.getService("runtimeService");
 		List<Execution> list =runtimeService.createExecutionQuery().list();
 		for(Execution e: list){
 			System.out.println(e.getActivityId());

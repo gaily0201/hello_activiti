@@ -11,6 +11,7 @@
       http://www.springframework.org/schema/mvc  
       http://www.springframework.org/schema/mvc/spring-mvc-4.1.xsd">
 	
+	
 	<!-- 注解所需配置 -->
 	 <context:component-scan base-package="cn.gaily.controller"></context:component-scan>
 	<!--
@@ -20,9 +21,8 @@
 	<!-- 替代以上手动注入两个类 -->
 	<mvc:annotation-driven/> 
 	
-	<!-- 静态文件配置 -->
-	<mvc:resources location="/image/" mapping="/image/**"></mvc:resources>
-	
+	<mvc:resources location="/css/" mapping="/css/**"></mvc:resources>
+		
 	<!-- 多参数方法处理器   访问： ...?action=methodName -->
 	<bean id="parameterMethodNameResolver" class="org.springframework.web.servlet.mvc.multiaction.ParameterMethodNameResolver">
 		<property name="paramName" value="action"></property>
@@ -33,5 +33,9 @@
         <property name="prefix" value="/WEB-INF/jsp/"/>  
         <property name="suffix" value=".jsp"/>  
     </bean>
+
+	<mvc:interceptors>
+ 		<bean class="cn.gaily.interceptor.MyInterceptor"></bean>
+	</mvc:interceptors>
 	
 </beans>
